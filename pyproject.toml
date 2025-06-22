@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aerosol-stat-modeling"
+version = "0.1.0"
+description = "Python scripts for modeling aerosol particle size distribution"
+authors = [
+    { name="Moise Baraka" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
